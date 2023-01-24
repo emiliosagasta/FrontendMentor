@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body { 
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+    margin: 1.5rem;
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-container, 
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+} 
+
+.main-container img {
+    background-color: hsl(216, 12%, 54%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main-container h1 {
+    color: #ffff;
+    margin: 2rem 0 1;
+}
+
+.main-container p {
+    color: hsl(217, 12%, 63%);
+}
+
+.main-container ul {
+    color: hsl(217, 12%, 63%);
+}
+
+button {
+    font-family: inherit;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}

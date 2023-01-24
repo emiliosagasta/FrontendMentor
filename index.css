@@ -22,6 +22,10 @@ body {
     min-height: 100vh;
 }
 
+button {
+    font-family: inherit;
+}
+
 .main-container, 
 .thank-you {
     background-color: hsl(213, 19%, 18%);
@@ -30,7 +34,7 @@ body {
 } 
 
 .main-container img {
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(213, 20%, 22%);
     padding: 0.5rem;
     border-radius: 50%;
 }
@@ -42,17 +46,81 @@ body {
 
 .main-container p {
     color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
 }
 
 .main-container ul {
-    color: hsl(217, 12%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
-button {
-    font-family: inherit;
+.main-container ul button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 50%; /* Para que sea redondo */
+    color:#ffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* transicion de cambio de color */
+.main-container ul button:hover {
+    background-color: hsl(217, 12%, 63%)
+}
+
+.main-container ul button:focus {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn-submit {
+    cursor: pointer;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    padding: 0.8rem 0 0.6rem;
+    border-radius: 30px;
+    border: none;
+    text-transform:uppercase; /* texto todo en Mayus */
+    letter-spacing: 0.2rem; /* Espacio entre letras */
+    transition: 0.3rem;
+}
+
+.btn-submit:hover {
+    color:hsl(25, 97%, 53%);
+    background-color: #ffff;
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thank-you p.gray {
+    background-color: hsl(213, 20%, 22%);
+    color:hsl(25, 97%, 53%); ;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 0.2rem 0.6rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+}
+
+.attribution a {
+    color: hs1(228, 45%, 44%);
 }

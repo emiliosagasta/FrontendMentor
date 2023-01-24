@@ -31,6 +31,7 @@ button {
     background-color: hsl(213, 19%, 18%);
     padding: 1.5rem;
     border-radius: 0.625rem;
+    max-width: 400px;
 } 
 
 .main-container img {
@@ -116,11 +117,17 @@ button {
     margin-bottom: 2rem;
 }
 
+.hidden {
+    display: none;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: #ffff;
+    margin-top: 2rem;
 }
 
 .attribution a {
-    color: hs1(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }

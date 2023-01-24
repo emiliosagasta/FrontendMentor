@@ -23,16 +23,16 @@
             <li><button class="btn">4</button></li>
             <li><button class="btn">5</button></li>
         </ul>
-        <button class="btn-submit">Submit</button>
+        <button class="btn-submit" id="submit">Submit</button>
     </div>
 
 <!--Rating state end -->
 
 <!--thank you state start -->
-<div class="thank-you">
+<div class="thank-you hidden">
     <img src="./Consignas/images/illustration-thank-you.svg" alt="">
     <p class="gray">You selected 
-        <!--Add rating here --> 
+        <span id="rating"></span>
         out of 5</p>
 
     <h2>Thank you!</h2>
@@ -40,7 +40,7 @@
     <p>We appreciate you taking the time to give a rating. If you ever need more support, 
         don’t hesitate to get in touch!</p>
 
-    <button class="btn-submit">Rate Again</button>
+    <button class="btn-submit" id="rate-again">Rate Again</button>
 </div>
 
 <!--thank you state end -->
@@ -48,6 +48,6 @@
     challenge by <a href="https://github.com/emiliosagasta" target="_blank">Github</a>
     Coded by <a href="https://www.linkedin.com/in/emiliosagasta/" target="_blank">Emilio Sagasta</a>
 </div>
-
+<script src="./index.js"></script>
 </body>
 </html>
